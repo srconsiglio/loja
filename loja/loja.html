@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./loja.js"/>
+    <link rel="stylesheet" href="./loja.css">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./compra.css">
+</head>
+<body>
+    
+    <header>
+        <div class="Container">
+            <div class="logo">
+                <img src="./images/logotipo_sem_ONG- sem fundo.png" width="450px">
+            </div> 
+            <aside>
+                <div onclick="menu()" id="menu-opener">
+                    <img src="./images/menu_FILL0_wght400_GRAD0_opsz48.png" width="50">
+                </div>
+                <div id="menu-area">
+                    <ul>
+                        <a href="./loggin02/Loggin_provisorio.html">
+                        <li>Entrar</li></a>
+                        <li>Sobre</li>
+                        <li>Contato</li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </header>
+    <div class="loja">
+        <img src="./images/produtos.png">
+    </div>
+
+    <div class="fundo">
+        <br><br><br>
+        <div class="box">
+            <form action="">
+                <fieldset>
+                    <legend>Encomenda</legend>
+                    <br>
+                    <div class="inputbox">
+                        <input type="text" name="nomealuno" id="nomealuno" class="inputUser" required>
+                        <label for="nomealuno" class="labelInput"><i class="fa-solid fa-user-graduate"></i> Nome completo </label>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="inputbox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="labelInput"><i class="fa-solid fa-envelope"></i> Email </label>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="inputbox">
+                        <input type="number" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="telefone" class="labelInput"><i class="fa-solid fa-phone"></i> Telefone</label>
+                    </div>
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="number" name="cpf" id="cpf" class="inputUser" required>
+                        <label for="cpf" class="labelInput"><i class="fa-solid fa-phone"></i>CPF</label>
+                    </div>
+                
+                <div id="buttons">
+                </div>
+                
+                    
+                    <div class="inputbox"></div>
+                    <p><i class="fa-solid fa-computer"></i>Forma de pagamento</p>
+                        <input type="radio" id="formapagar" name="formapagar" value="formapagar" required>
+                        <label for="formapagar">Pix</label>
+                        <br>
+                        <input type="radio" id="formapagar" name="formapagar" value="formapagar" required>
+                        <label for="formapagar">Boleto</label>
+                        <br>
+                        <input type="radio" id="formapagar" name="formapagar" value="formapagar" required>
+                        <label for="formapagar">Cartão de Credito</label>
+                        <br>
+                        <input type="radio" id="formapagar" name="formapagar" value="formapagar" required>
+                        <label for="formapagar">Cartão de Debito</label>
+                        <br><br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+            </div></div>
+        </section>
+
+    <footer> 
+            <div class="bar"></div>
+            <div class="menu2">
+                <section class="div1">
+                    <ul>
+                        <p id="titulo">Quem Somos</p>
+                        <li><a href="#">História</a> </li>
+                        <li><a href="#">Missão</a></li>
+                        <li><a href="#">Visão</a> </li>
+                        <li><a href="#">Valores <a> </li>
+                    </ul>
+                </section>
+                <section class="div2">
+                    <ul>
+                        <p id="titulo">Contatos</p>
+                        <li><a href="#">Fale conosco</a></li>
+                        <li><a href="#">Trabalhe conosco</a> </li>
+                    </ul>
+                </section>
+                <section class="div3">
+                    <ul>
+                        <p id="titulo">Privacidade</p>
+                        <li><a href="#">Termos</a></li>
+                        <li><a href="#">Cookies</a> </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="box1">
+            <div class="insta">
+                <a href="">
+                <img src="./images/instagram.png" alt="instagram" width="50px"></a>
+            </div>
+            <div class="face">
+                <a href=""><img src="./images/facebook.png" alt="Facebook" width="50px"></a>
+            </div>
+            <div class="twitter">
+                <a href=""><img src="./images/linkedin.png"  alt="linkedin" width="50px"></a>
+            </div>
+            </div>
+        </div>
+        <div class="direitos">
+            <p>© 2022| Associação Techno Growing.Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="./loja.js"></script>
+</body>
+</html>
